@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.plateContainer {
+    margin: 160px auto 0; /*!kill it*/
+    width: 384px;
+    height: 395px;
+    position: relative;
+    background: #14223C;
+    overflow: hidden;
+}
+
+.bw-plate{
+    position: relative;
+    top: -200px;
+    width: 382px;
+    height: 120px; 
+    animation: plate 4s infinite;
+}
+
+.plate__lighter{
+    background: #ffffff;
+    position: absolute;
+    opacity: 0;
+    top: 30px;
+    width: 170px;
+    height: 80px;
+    left: 100px;
+    animation: light 4s infinite;
+}
+
+.plateimg {
+    background: no-repeat url(/img/StarshipWell.png);
+    position: absolute;
+    width: 382px;
+    height: 120px; 
+    z-index: 1000;   
+}
+
+.plateGlowlight {
+    position: absolute;
+    left: 93px;
+    top: 60px;
+    height: 272px;
+    width: 182px;
+    background: #20C4D8;
+    opacity: 0;
+    filter: blur(64px);
+    border-radius: 96px;
+    animation: glow 4s infinite;
+}
+
+.addText {
+    position: absolute;
+    bottom: 120px;
+    left: 110px;
+    color: white;
+    opacity: 0;
+    animation: text 4s infinite;
+}
+
+.upToText {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.mainText{
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 100%;
+}

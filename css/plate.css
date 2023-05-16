@@ -1,0 +1,19 @@
+@import url(markup.css);
+
+@keyframes plate {
+    0% {top: -200px;} 40% {top: 0; opacity: 1;} 98% {top: 0; opacity: 1;} 100% {top: -200;}
+}
+
+@keyframes glow {
+    
+    
+    60% {opacity: 0;} 65% {opacity: 0.25;} 70% {opacity: 0;} 75% {opacity: 0.25;} 80%{opacity: 0;} 85% {opacity: 0.25;} 100% {opacity: 0.25;}
+}
+
+@keyframes light {
+    60% {opacity: 0;} 65% {opacity: 1;}    70% {opacity: 0;} 75% {opacity: 1;}    80%{opacity: 0;} 85% {opacity: 1;}    100% {opacity: 1;}
+}
+
+@keyframes text {
+                                                                                  80%{opacity: 0;} 88% {opacity: 1;}    100% {opacity: 1;}
+}
